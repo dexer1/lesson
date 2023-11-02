@@ -1,0 +1,36 @@
+$primary-color: #f58601;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+$second-color: #e79742;
+.header {
+  background-color: $primary-color;
+  font-family: 'Roboto', sans-serif;
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .logo {
+      color: white;
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    .list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .item {
+        padding: 12px 16px;
+        color: white;
+        cursor: pointer;
+        &:hover{
+          background-color: $second-color;
+        }
+      }
+    }
+  }
+}

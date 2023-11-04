@@ -33,10 +33,13 @@
           align-items: center;
 }
 .header .wrapper .list .item {
+  border-radius: 12px;
   padding: 12px 16px;
   color: white;
   cursor: pointer;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
 }
 .header .wrapper .list .item:hover {
-  background-color: #e79742;
+  background-color: #ea9935;
 }

@@ -1,6 +1,6 @@
 $primary-color: #f58601;
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-$second-color: #e79742;
+$second-color: #ea9935;
 .header {
   background-color: $primary-color;
   font-family: 'Roboto', sans-serif;
@@ -24,9 +24,11 @@ $second-color: #e79742;
       align-items: center;
 
       .item {
+        border-radius: 12px;
         padding: 12px 16px;
         color: white;
         cursor: pointer;
+        transition: 0.25s;
         &:hover{
           background-color: $second-color;
         }
